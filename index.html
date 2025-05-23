@@ -58,50 +58,69 @@
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
          }
+         .badge-pill {
+            border-radius: 50px;
+            font-size: 1rem;
+            font-weight: 500;
+          }
+
+          .services_section {
+            padding: 60px 0;
+          }
+
+          .layout_padding {
+            padding-top: 60px;
+            padding-bottom: 60px;
+          }
+
+          .explore-title {
+            font-size: 3rem;
+            font-weight: bold;
+          }
+
+          .explore-subtitle {
+            color: teal;
+            font-style: italic;
+          }
+
+          .explore-description {
+            font-size: 1.1rem;
+          }
       </style>
-   </head>
-   <body>
-      <!-- Preloader Start -->
+</head>
+<body>
+<!-- Preloader Start -->
       <div id="preloader">
          <div class="loader"></div>
       </div>
       <!-- Preloader End -->
 
+  <!-- Explore Section Start -->
+  <div class="services_section layout_padding" style="background-color: #f9f9f9;">
+    <div class="container text-center">
+      <h1 class="explore-title">Explore Dream Tour & Travels</h1>
+      <h4 class="explore-subtitle">Where Authenticity Lights The Way…</h4>
+      <p class="mt-3 explore-description">
+        Experience the authentic beauty of Sri Lanka with our curated cultural adventures and unforgettable experiences.
+      </p>
 
-      <!-- choose section start -->
+      <div class="d-flex justify-content-center flex-wrap my-4 gap-2">
+        <span class="badge badge-pill badge-secondary p-2" style="background-color: #2d8a78;">● Adventure Tours</span>
+        <span class="badge badge-pill badge-warning p-2" style="background-color: #fbc02d;">● Cultural Experiences</span>
+        <span class="badge badge-pill badge-primary p-2" style="background-color: #3f51b5;">● Nature Escapes</span>
+      </div>
+    </div>
+    <!-- choose section start -->
       <div class="choose_section layout_padding">
          <div class="container">
             <div class="newsletter_box">
                <h1 class="let_text">Let's Connect With Us</h1>
-               <div class="getquote_bt"><a href="#">Get A Quote</a></div>
+               <div class="getquote_bt"><a href="https://forms.gle/ydC1E5WYwEUvsDgK7">Connect</a></div>
             </div>
          </div>
       </div>
-      <!-- choose section end -->
-      <!-- services section start -->
-      <div class="services_section layout_padding">
-         <div class="container">
-            <h1 class="services_taital">Services </h1>
-            <p class="services_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
-            <div class="services_section_2">
-               <div class="row">
-                  <div class="col-md-4">
-                     <div><img src="images/img-1.png" class="services_img"></div>
-                     <div class="btn_main"><a href="#">Rafting</a></div>
-                  </div>
-                  <div class="col-md-4">
-                     <div><img src="images/img-2.png" class="services_img"></div>
-                     <div class="btn_main active"><a href="#">Hiking</a></div>
-                  </div>
-                  <div class="col-md-4">
-                     <div><img src="images/img-3.png" class="services_img"></div>
-                     <div class="btn_main"><a href="#">Camping</a></div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- services section end -->
+    </div>
+<!-- services section start -->
 
       <!-- Javascript files-->
       <script src="js/jquery.min.js"></script>
